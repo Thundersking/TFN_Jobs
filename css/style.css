@@ -236,10 +236,10 @@ textarea {
 .link:link{color: #ff293e;}
 .link:hover{color: #ff293e; text-decoration: underline;}
 
-.nolink{
-pointer-events: none;
-cursor: default;
-}
+/* .nolink{
+	pointer-events: none;
+	cursor: default;
+} */
 
 /* -------------------------------------   card   --------------------------------------------------  */
 

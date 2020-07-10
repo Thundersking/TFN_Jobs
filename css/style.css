@@ -243,6 +243,10 @@ cursor: default;
 
 /* -------------------------------------   card   --------------------------------------------------  */
 
+section.card {
+    margin-bottom: 150px;
+}
+
 .card-page {
     margin-top: 64px;
 }

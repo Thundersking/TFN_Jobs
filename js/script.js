@@ -1,7 +1,16 @@
 
 //При нажатии убирает картинку и воспроизводит видео
-document.querySelector(".vacancies-head__video__overlay").onclick = function(){
+/* document.querySelector(".vacancies-head__video__overlay").onclick = function(){
     this.style.display = "none";
+}
+ */
+var x = document.querySelector(".vacancies-head__video__overlay")
+if(x!=null){
+
+x.onclick = function(){
+this.style.display = "none";
+}
+
 }
 
 //Ссылка на резюме

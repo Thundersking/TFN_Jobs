@@ -243,28 +243,8 @@ cursor: default;
 
 /* -------------------------------------   card   --------------------------------------------------  */
 
-input#resume-partner-card {
-    width: 0.1px;
-    height: 0.1px;
-    opacity: 0;
-    overflow: hidden;
-    position: absolute;
-    z-index: -1;
-}
-
-input#checkbox-consent-card {
-	float: left;
-}
-
-input#buttonSendCard {
-	margin-top: 26px;
-	height: 48px;
-	margin-top: 15px;
-}
-input#checkbox-consent-card {
-	height: inherit;
-	display: flex;
-	margin-bottom: 28px;
+.card-page {
+    margin-top: 64px;
 }
 
 .card-header {
@@ -1204,6 +1184,23 @@ input[type=search] {
 		max-width: 970px
 	}
 
+	.card-item__desc li {
+		font-size: 14px;
+	}
+
+	.card-header__desc h2 {
+		color: #293240;
+		font-size: 26px;
+		font-weight: 600;
+	}
+
+	.card-header__desc p {
+		color: #526380;
+		font-size: 14px;
+		font-weight: 300;
+		letter-spacing: 0.4px;
+	}
+
 	.vacancies-container {
 		width: 100%;
 		margin: 0 auto;
@@ -1260,6 +1257,15 @@ input[type=search] {
 @media only screen and (max-width:970px) {
 	.container {
 		max-width: 750px
+	}
+
+	.card-item {
+		padding: 43px 0 0px 0;
+	}
+
+	.partner-card__desc {
+		padding-left: inherit;
+		margin: 70px 0 20px!important;
 	}
 
 	.vacancies-container {
@@ -1432,6 +1438,14 @@ input[type=search] {
 @media only screen and (max-width:750px) {
 	.container {
 		max-width: 480px
+	}
+
+	.card-item__desc li {
+		font-size: 12px;
+	}
+
+	.card-header__desc h2 {
+		font-size: 24px;
 	}
 
 	.vacancies-block__wrapper {
